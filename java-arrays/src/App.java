@@ -33,5 +33,8 @@ public class App {
 		int[] oneDimensionalArray = {12, 49, 922};
 		System.out.println(oneDimensionalArray[1]);
 		//prints 49
+		
+		int[][] multiDimensionalArray = {{12, 49, 922}, {20, 39, 34, 3}, {10, 40, 6}};
+		System.out.println(multiDimensionalArray[1][2]);
 	}
 }
