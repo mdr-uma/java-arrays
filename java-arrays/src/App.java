@@ -27,5 +27,11 @@ public class App {
 		for(int i=0; i<numbers.length; i++) {
 			System.out.println(numbers[i]);
 		}
+		
+		
+		//Multidimensional array
+		int[] oneDimensionalArray = {12, 49, 922};
+		System.out.println(oneDimensionalArray[1]);
+		//prints 49
 	}
 }
