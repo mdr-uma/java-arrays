@@ -6,6 +6,8 @@ public class App {
 		//declare array with new keyword and whatever number is inside the square bracket is the number of items that array can hold		
 		int[] numbers = new int[5];
 		
+		//int[] numbers = {15,20,25,30,35}; declaring and initializing at once.
+		
 		System.out.println(numbers[0]);
 		
 		//initialize array
