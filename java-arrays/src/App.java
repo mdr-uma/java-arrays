@@ -8,6 +8,7 @@ public class App {
 		
 		System.out.println(numbers[0]);
 		
+		//initialize array
 		numbers[0] = 15;
 		numbers[1] = 20;
 		numbers[2] = 25;
