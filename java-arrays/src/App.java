@@ -24,5 +24,8 @@ public class App {
 		System.out.println(numbers[4]);
 		//numbers[1] to [4] will print out 0 that is default value since we did not initialize index 1 through 4 yet.		
 
+		for(int i=0; i<numbers.length; i++) {
+			System.out.println(numbers[i]);
+		}
 	}
 }
