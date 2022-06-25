@@ -9,7 +9,11 @@ public class App {
 		System.out.println(numbers[0]);
 		
 		numbers[0] = 15;
-		
+		numbers[1] = 20;
+		numbers[2] = 25;
+		numbers[3] = 30;
+		numbers[4] = 35;
+
 		System.out.println(numbers[0]);
 		System.out.println(numbers[1]);
 		System.out.println(numbers[2]);
