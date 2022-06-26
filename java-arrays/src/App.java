@@ -36,5 +36,6 @@ public class App {
 		
 		int[][] multiDimensionalArray = {{12, 49, 922}, {20, 39, 34, 3}, {10, 40, 6}};
 		System.out.println(multiDimensionalArray[1][2]);
+		//prints 34
 	}
 }
