@@ -37,5 +37,12 @@ public class App {
 		int[][] multiDimensionalArray = {{12, 49, 922}, {20, 39, 34, 3}, {10, 40, 6}};
 		System.out.println(multiDimensionalArray[1][2]);
 		//prints 34
+		
+		for(int array=0; array<multiDimensionalArray.length; array++) {
+			for(int item=0; item<multiDimensionalArray[array].length; item++) {
+				System.out.println(multiDimensionalArray[array][item]+"\t");
+			}
+			System.out.println();
+		}
 	}
 }
